@@ -179,9 +179,7 @@ timezone: Asia/Tokyo
 
 # Plugins
 plugins:
-  - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
