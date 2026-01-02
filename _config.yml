@@ -87,7 +87,7 @@ read_more                : "disabled"
 talkmap_link             : false
 
 atom_feed:
-  hide                   : false
+  hide                   : true
   path                   :
 
 # SEO Related
@@ -176,6 +176,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 timezone: Asia/Tokyo
+
 
 # Plugins
 plugins:
