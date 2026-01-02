@@ -7,58 +7,34 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- **Ph.D., Intelligence Science and Technology (IST)**, Kyoto University, Japan (Apr 2021 – Present)
+- **M.Eng, Computer Applications**, Ocean University of China, China (2017 – 2020)
+- **B.Eng., Computer Science and Technology**, Ocean University of China, China (2013 – 2017)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Research Interests
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- EMG signal analysis
+- Deep learning
+- Human–computer interaction (HCI)
+- Assistive robotics / power assist control (related)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Publications
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<ul>
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+
+
+## Research Experience
+
+- **Research Trainee**, RIKEN, Japan  
+  *Man–Machine Collaboration Research Team*  
+  *(Dec 2021 – Present)*  
+  - Conduct research on electromyography (EMG) signal analysis for human–machine interaction  
+  - Investigate the application of machine learning and deep learning methods to EMG-based interaction and assistive systems  
+  - Contribute to research on human–robot collaboration and power assist technologies through experimental studies and data analysis
+
