@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I am a graduate student at **Kyoto University**, based in Kyoto, Japan.
+I am a Ph.D student at **Kyoto University**, based in Kyoto, Japan.
 
 My research interests focus on **electromyography (EMG) signals**, **deep learning**, and **human–computer interaction (HCI)**. I am particularly interested in applying modern deep learning methods to EMG-based sensing and interaction, with the goal of enabling more natural and intelligent human–machine interfaces.
 
@@ -24,7 +24,7 @@ You can reach me via email at:
 
 ## 关于我
 
-我目前是**京都大学**的研究生，常驻日本京都。
+我目前是**京都大学**的博士研究生, 目前在日本京都。
 
 我的研究兴趣主要集中在**肌电（EMG）信号**、**深度学习**以及**人机交互**等方向，关注如何利用深度学习方法对生理信号进行建模与理解，从而实现更加自然、高效的人机交互方式。
 
