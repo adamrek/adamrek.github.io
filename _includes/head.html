@@ -22,5 +22,19 @@
   })();
 </script>
 
+<style>
+  [data-lang-block="zh"] {
+    display: none !important;
+  }
+
+  html[data-lang="zh"] [data-lang-block="en"] {
+    display: none !important;
+  }
+
+  html[data-lang="zh"] [data-lang-block="zh"] {
+    display: revert !important;
+  }
+</style>
+
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">

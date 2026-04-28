@@ -24,9 +24,13 @@ body {
   }
 }
 
-html:not([data-lang="zh"]) [data-lang-block="zh"],
+[data-lang-block="zh"],
 html[data-lang="zh"] [data-lang-block="en"] {
   display: none !important;
+}
+
+html[data-lang="zh"] [data-lang-block="zh"] {
+  display: revert !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
