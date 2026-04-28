@@ -24,6 +24,11 @@ body {
   }
 }
 
+html:not([data-lang="zh"]) [data-lang-block="zh"],
+html[data-lang="zh"] [data-lang-block="en"] {
+  display: none !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;

@@ -2,6 +2,7 @@
 locale                   : "en-US"
 site_theme               : "default"
 title                    : "Kai Ren | EMG & Robotics"
+title_zh                 : "任凯 | 肌电与机器人"
 title_separator          : "-"
 name                     : &name "Kai Ren"
 description              : &description "Kai Ren's academic homepage on EMG sensing, motion intention prediction, assistive robotics, and human-centered interaction."
@@ -16,8 +17,11 @@ author:
   name             : "Kai Ren"
   pronouns         :
   bio              : "Ph.D. student at Kyoto University and research trainee at RIKEN, working on EMG-based motion intention prediction for assistive human-machine interaction."
+  bio_zh           : "京都大学博士研究生，理化学研究所研究实习生，研究方向为基于肌电信号的动作意图预测与辅助型人机交互。"
   location         : "Kyoto, Japan"
+  location_zh      : "日本京都"
   employer         : "Kyoto University"
+  employer_zh      : "京都大学"
   uri              :
   email            : "ren.kai.34k@st.kyoto-u.ac.jp"
 
@@ -74,10 +78,13 @@ author:
 publication_category:
   books:
     title: 'Books'
+    title_zh: '书籍'
   manuscripts:
     title: 'Journal Articles'
+    title_zh: '期刊论文'
   conferences:
     title: 'Conference Papers'
+    title_zh: '会议论文'
 
 # Site Settings
 breadcrumbs              : false
@@ -158,6 +165,18 @@ defaults:
   - scope:
       path: ""
       type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: research
     values:
       layout: single
       author_profile: true

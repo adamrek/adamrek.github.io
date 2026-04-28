@@ -11,6 +11,7 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+{% assign title_zh = post.title_zh | default: post.title %}
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
@@ -27,16 +28,16 @@
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}"><span data-lang-block="en">{{ title }}</span><span data-lang-block="zh">{{ title_zh }}</span></a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink"><span data-lang-block="en">{{ title }}</span><span data-lang-block="zh">{{ title_zh }}</span></a>
       {% endif %}
     </h2>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> <span data-lang-block="en">{{ post.date | date: '%B %d, %Y' }}</span><span data-lang-block="zh">{{ post.date | date: '%Y-%m-%d' }}</span></p>{% endif %}
+    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description"><span data-lang-block="en">{% if post.type %}{{ post.type }}, {% endif %}{{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</span><span data-lang-block="zh">{% if post.type %}{{ post.type_zh | default: post.type }}，{% endif %}{{ post.venue_zh | default: post.venue }}{% if post.location %}，{{ post.location_zh | default: post.location }}{% endif %}</span></p>{% endif %}
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description"><span data-lang-block="en">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</span><span data-lang-block="zh">{{ post.excerpt_zh | default: post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</span></p>{% endif %}
   </article>
 </div>

@@ -120,3 +120,10 @@
     line-height: 1.25;
   }
 }
+
+html[data-theme="dark"] .home-tags span {
+  border-color: var(--global-base-color);
+  background: var(--global-bg-color);
+  background: color-mix(in srgb, var(--global-base-color) 16%, var(--global-bg-color));
+  color: var(--global-text-color);
+}
