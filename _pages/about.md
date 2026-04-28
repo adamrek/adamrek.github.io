@@ -16,6 +16,8 @@ redirect_from:
     <a class="btn btn--primary" href="/publications/">Publications</a>
     <a class="btn" href="/research/">Research</a>
     <a class="btn" href="/cv/">CV</a>
+    <a class="btn" href="/cv_pdf/Kai_Ren_CV_en.pdf">CV PDF</a>
+    <a class="btn" href="/cv_pdf/Kai_Ren_CV_cn.pdf">中文简历</a>
     <a class="btn" href="mailto:ren.kai.34k@st.kyoto-u.ac.jp">Email</a>
   </div>
 </div>

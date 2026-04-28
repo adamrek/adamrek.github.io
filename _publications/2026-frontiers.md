@@ -5,6 +5,7 @@ permalink: /publication/2026-fibb-anticipatory-emg-transition-prediction
 excerpt: "Published in Frontiers in Bioengineering and Biotechnology."
 date: 2026-01-01
 venue: "Frontiers in Bioengineering and Biotechnology"
+status: "Published"
 citation: 'Ren, K., Yuichi Nakamura, Kazuaki Kondo, Kei Shimonishi, Qi An, Takahide Ito, Jun-ichiro Furukawa, Masashi Toda and Junichi Akita ... "Anticipatory prediction of sit-to-stand and stand-to-sit transitions: a unified approach." <i>Frontiers in Bioengineering and Biotechnology</i>, 2026. doi: 10.3389/fbioe.2026.1792582.'
 category: manuscripts
 ---
