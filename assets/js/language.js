@@ -2,9 +2,22 @@
   var storageKey = 'language';
   var defaultLanguage = 'en';
 
+  function normalizeLanguage(language) {
+    return language === 'zh' ? 'zh' : defaultLanguage;
+  }
+
+  function getQueryLanguage() {
+    try {
+      var language = new URLSearchParams(window.location.search).get('lang');
+      return language === 'zh' || language === defaultLanguage ? language : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
   function getStoredLanguage() {
     try {
-      return localStorage.getItem(storageKey) === 'zh' ? 'zh' : defaultLanguage;
+      return normalizeLanguage(localStorage.getItem(storageKey));
     } catch (e) {
       return defaultLanguage;
     }
@@ -16,6 +29,68 @@
     } catch (e) {
       // Ignore storage failures; the current page still switches language.
     }
+  }
+
+  function updateLanguageBlocks(language) {
+    var blocks = document.querySelectorAll('[data-lang-block]');
+
+    blocks.forEach(function (block) {
+      block.hidden = block.getAttribute('data-lang-block') !== language;
+    });
+  }
+
+  function updateCurrentUrl(language) {
+    if (!window.history || !window.history.replaceState) {
+      return;
+    }
+
+    try {
+      var url = new URL(window.location.href);
+
+      if (language === 'zh' || url.searchParams.has('lang')) {
+        url.searchParams.set('lang', language);
+      }
+
+      window.history.replaceState({}, '', url.toString());
+    } catch (e) {
+      // Ignore URL update failures; language switching still works on the page.
+    }
+  }
+
+  function shouldCarryLanguage(link, url) {
+    if (!link || link.getAttribute('href') === '#') {
+      return false;
+    }
+
+    if (url.origin !== window.location.origin) {
+      return false;
+    }
+
+    return !/\.(pdf|png|jpe?g|gif|svg|ico|css|js|xml|txt|zip)$/i.test(url.pathname);
+  }
+
+  function updateInternalLinks(language) {
+    var links = document.querySelectorAll('a[href]');
+
+    links.forEach(function (link) {
+      try {
+        var url = new URL(link.getAttribute('href'), window.location.href);
+
+        if (!shouldCarryLanguage(link, url)) {
+          return;
+        }
+
+        if (language === 'zh' || window.location.search.indexOf('lang=') !== -1) {
+          url.searchParams.set('lang', language);
+        } else {
+          url.searchParams.delete('lang');
+        }
+
+        link.setAttribute('href', url.toString());
+      } catch (e) {
+        // Ignore malformed or non-standard links.
+      }
+    });
   }
 
   function updateToggle(language) {
@@ -33,16 +108,19 @@
   }
 
   function setLanguage(language) {
-    var nextLanguage = language === 'zh' ? 'zh' : defaultLanguage;
+    var nextLanguage = normalizeLanguage(language);
 
     document.documentElement.setAttribute('data-lang', nextLanguage);
     document.documentElement.setAttribute('lang', nextLanguage === 'zh' ? 'zh-CN' : 'en');
     storeLanguage(nextLanguage);
+    updateLanguageBlocks(nextLanguage);
+    updateCurrentUrl(nextLanguage);
+    updateInternalLinks(nextLanguage);
     updateToggle(nextLanguage);
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    setLanguage(getStoredLanguage());
+    setLanguage(getQueryLanguage() || getStoredLanguage());
 
     var toggle = document.querySelector('#language-toggle a');
     if (!toggle) {

@@ -24,13 +24,18 @@ body {
   }
 }
 
+[data-lang-block][hidden],
 [data-lang-block="zh"],
 html[data-lang="zh"] [data-lang-block="en"] {
   display: none !important;
 }
 
-html[data-lang="zh"] [data-lang-block="zh"] {
-  display: revert !important;
+html[data-lang="zh"] div[data-lang-block="zh"] {
+  display: block !important;
+}
+
+html[data-lang="zh"] span[data-lang-block="zh"] {
+  display: inline !important;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -13,7 +13,9 @@
   (function () {
     var lang = 'en';
     try {
-      lang = localStorage.getItem('language') === 'zh' ? 'zh' : 'en';
+      var queryLang = new URLSearchParams(window.location.search).get('lang');
+      lang = queryLang === 'zh' || queryLang === 'en' ? queryLang : localStorage.getItem('language');
+      lang = lang === 'zh' ? 'zh' : 'en';
     } catch (e) {
       lang = 'en';
     }
@@ -23,6 +25,7 @@
 </script>
 
 <style>
+  [data-lang-block][hidden],
   [data-lang-block="zh"] {
     display: none !important;
   }
@@ -31,8 +34,12 @@
     display: none !important;
   }
 
-  html[data-lang="zh"] [data-lang-block="zh"] {
-    display: revert !important;
+  html[data-lang="zh"] div[data-lang-block="zh"] {
+    display: block !important;
+  }
+
+  html[data-lang="zh"] span[data-lang-block="zh"] {
+    display: inline !important;
   }
 </style>
 
