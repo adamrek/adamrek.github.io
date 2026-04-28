@@ -1,10 +1,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "KAI REN | Homepage"
+title                    : "Kai Ren | EMG, Robotics & HCI"
 title_separator          : "-"
-name                     : &name "KAI REN"
-description              : &description "KAI REN's academic homepage at Kyoto University"
+name                     : &name "Kai Ren"
+description              : &description "Kai Ren's academic homepage on EMG sensing, motion intention prediction, assistive robotics, and human-centered interaction."
 
 url                      : https://adamrek.github.io
 baseurl                  : ""
@@ -13,9 +13,9 @@ repository               : "adamrek/adamrek.github.io"
 # Site Author
 author:
   avatar           : "profile.jpg"
-  name             : "KAI REN"
+  name             : "Kai Ren"
   pronouns         :
-  bio              : "Ph.D. student at Kyoto University working on EMG sensing, multimodal learning, and human-centered AI for intelligent interactive systems."
+  bio              : "Ph.D. student at Kyoto University and research trainee at RIKEN, working on EMG-based motion intention prediction for assistive human-machine interaction."
   location         : "Kyoto, Japan"
   employer         : "Kyoto University"
   uri              :
@@ -107,7 +107,7 @@ og_image                 :
 og_description           :
 social:
   type                   : Person
-  name                   : "Kairen"
+  name                   : "Kai Ren"
   links                  :
 
 # Analytics

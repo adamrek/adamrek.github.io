@@ -1,10 +1,10 @@
 {
   "basics": {
-    "name": "Kairen",
+    "name": "Kai Ren",
     "email": "ren.kai.34k@st.kyoto-u.ac.jp",
     "phone": "",
     "website": "https://adamrek.github.io",
-    "summary": "Ph.D. student at Kyoto University (IST). Research interests include EMG signal analysis, deep learning, and human–computer interaction.",
+    "summary": "Ph.D. student in Intelligence Science and Technology at Kyoto University and research trainee at RIKEN. My research focuses on EMG-based physiological signal modeling, motion intention prediction, and real-time assistive human-machine interaction.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -20,14 +20,29 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "RIKEN",
+      "position": "Research Trainee, Man-Machine Collaboration Research Team",
+      "website": "",
+      "startDate": "2021-12",
+      "endDate": "",
+      "summary": "Research on EMG-based sit-to-stand and stand-to-sit motion analysis, prediction, and assistive system integration.",
+      "highlights": [
+        "Designed real-time physiological signal processing and neural network pipelines for motion intention prediction.",
+        "Built experimental systems for closed-loop control of motorized assistive devices, including chair-based support prototypes.",
+        "Developed EMG sensing hardware prototypes, including electrode fabrication, soldering, and acquisition setup.",
+        "Conducted data collection, model training, online evaluation, and system-level validation."
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "Kyoto University",
-      "area": "Intelligence Science and Technology (IST)",
+      "area": "Intelligence Science and Technology",
       "studyType": "Ph.D.",
       "startDate": "2021-04",
-      "endDate": "",
+      "endDate": "Present",
       "gpa": null,
       "courses": []
     },
@@ -50,17 +65,79 @@
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": ["Python", "MATLAB", "C++"]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": ["PyTorch", "Deep learning for biosignals", "Time-series modeling", "Motion intention prediction"]
+    },
+    {
+      "name": "Signal Processing",
+      "keywords": ["EMG acquisition", "Preprocessing", "Feature extraction", "Real-time signal processing"]
+    },
+    {
+      "name": "Systems and Prototyping",
+      "keywords": ["Closed-loop experimental systems", "Assistive device integration", "OptiTrack motion capture", "Hardware prototyping", "Linux", "Git"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "TOEFL"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "JLPT N2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": [
+        "Physiological signal modeling",
+        "Multimodal sensing",
+        "Real-time inference",
+        "Assistive robotics",
+        "Human-centered intelligent interaction"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {
+      "name": "Practical Motion Classification and Forecast toward Safe Assists of Sit-to-Stand and Stand-to-Sit Motions",
+      "publisher": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "releaseDate": "2026-01-01",
+      "website": "/publication/2026-iros-practical-motion-classification-and-forecast",
+      "summary": "Under review. A safety-aware framework for practical classification and anticipatory forecasting of sit-to-stand and stand-to-sit motions."
+    },
+    {
+      "name": "Anticipatory prediction of sit-to-stand and stand-to-sit transitions: a unified approach",
+      "publisher": "Frontiers in Bioengineering and Biotechnology",
+      "releaseDate": "2026-01-01",
+      "website": "/publication/2026-fibb-anticipatory-emg-transition-prediction",
+      "summary": "A unified real-time framework for EMG-based anticipatory prediction of sit-to-stand and stand-to-sit transitions. DOI: 10.3389/fbioe.2026.1792582."
+    },
+    {
       "name": "Integrated Motion State Prediction for Sit-to-Stand and Stand-to-Sit Motions Toward Effective Power Assist Control",
-      "publisher": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+      "publisher": "IEEE International Conference on Robotics and Automation (ICRA)",
       "releaseDate": "2025-01-01",
-      "website": "/files/papers/ren2025icra.pdf",
-      "summary": "Integrated motion state prediction for sit-to-stand and stand-to-sit motions toward effective power assist control."
+      "website": "/publication/2025-icra-integrated-motion-state-prediction",
+      "summary": "Integrated real-time motion state prediction for more effective power assist control."
+    },
+    {
+      "name": "Q-DFN: Q-learning Decisive Fusion Network for Object Detection",
+      "publisher": "Proceedings of CSAI",
+      "releaseDate": "2019-01-01",
+      "website": "/publication/2019-q-dfn",
+      "summary": "A Q-learning-based decisive fusion network for improving object detection accuracy."
     }
   ],
   "presentations": [],

@@ -9,14 +9,14 @@ redirect_from:
 
 ## Summary
 
-Ph.D. student in Intelligence Science and Technology at **Kyoto University**, working at the intersection of **EMG sensing**, **deep learning**, and **human–computer interaction**. My research focuses on physiological signal modeling, motion intention prediction, and intelligent interactive systems for human-centered applications. I am interested in future opportunities in research, research engineering, and applied machine learning related to multimodal sensing and intelligent interfaces.
+Ph.D. student in Intelligence Science and Technology at **Kyoto University** and research trainee in the **Man-Machine Collaboration Research Team at RIKEN**. My research focuses on EMG-based physiological signal modeling, motion intention prediction, and real-time intelligent interaction for assistive systems, including chair-based and wearable support devices. I am interested in research science, research engineering, and applied machine learning opportunities related to physiological sensing, multimodal perception, and human-centered intelligent systems.
 
 ## Education
 
 - **Ph.D. in Intelligence Science and Technology**, Kyoto University, Japan  
   Apr 2021 – Present
 
-- **M.Eng. in Computer Applications**, Ocean University of China, China  
+- **M.S. in Computer Applications**, Ocean University of China, China  
   2017 – 2020
 
 - **B.Eng. in Computer Science and Technology**, Ocean University of China, China  
@@ -33,7 +33,7 @@ Ph.D. student in Intelligence Science and Technology at **Kyoto University**, wo
 ## Research Experience
 
 - **Research Trainee**, RIKEN, Japan  
-  *Man–Machine Collaboration Research Team*  
+  *Man-Machine Collaboration Research Team*  
   Dec 2021 – Present  
   - Develop EMG-based sensing and prediction methods for sit-to-stand and stand-to-sit motion analysis in assistive systems
   - Design real-time signal processing and neural network pipelines for motion intention prediction from physiological signals
@@ -51,15 +51,23 @@ Ph.D. student in Intelligence Science and Technology at **Kyoto University**, wo
 
 ## Technical Skills
 
-- **Programming:** Python, MATLAB
+- **Programming:** Python, MATLAB, C++
 - **Machine Learning / AI:** PyTorch, deep learning for biosignals and time-series data, neural network-based motion prediction
 - **Signal Processing:** EMG acquisition, preprocessing, feature extraction, physiological signal analysis, real-time signal processing
+- **Motion Capture:** OptiTrack motion capture system, experimental calibration, data collection, and multi-sensor synchronization
 - **Systems & Control:** real-time inference pipeline development, closed-loop experimental systems, assistive device integration, motorized system control
 - **Hardware Prototyping:** electrode fabrication, soldering, circuit assembly, EMG sensor setup
 - **Tools:** Linux, Git
 
+## Awards & Activities
+
+- **Best Poster Award**, Department of Intelligence Science and Technology, Graduate School of Informatics, Kyoto University, 2025
+- **Academic Scholarship, Third Prize**, Ocean University of China, 2017 – 2020
+- **ACM-ICPC Shandong Provincial Contest, Silver Medal**, 2014
+- **Project Lead**, Ocean University of China SRDP project, 2016
+
 ## Language Skills
 
 - **Chinese:** Native
-- **English:** Proficient
+- **English:** TOEFL
 - **Japanese:** JLPT N2
