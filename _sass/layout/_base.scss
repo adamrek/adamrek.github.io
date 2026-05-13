@@ -258,6 +258,15 @@ figure {
   }
 }
 
+.research-demo {
+  display: block;
+
+  video {
+    width: 100%;
+    border-radius: $border-radius;
+  }
+}
+
 /* Figure captions */
 
 figcaption {
