@@ -7,7 +7,7 @@ venue: "Man-Machine Collaboration Research Team, RIKEN"
 venue_zh: "RIKEN 人机协作研究团队"
 excerpt: "Real-time EMG-based motion intention prediction and assistive interaction research in RIKEN's Man-Machine Collaboration Research Team."
 excerpt_zh: "在 RIKEN 人机协作研究团队开展的实时肌电动作意图预测与辅助型人机交互研究。"
-demo_video:
+demo_video: /videos/riken-demo.mp4
 demo_poster:
 ---
 
