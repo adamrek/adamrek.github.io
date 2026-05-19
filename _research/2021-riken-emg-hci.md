@@ -8,6 +8,7 @@ venue_zh: "RIKEN 人机协作研究团队"
 excerpt: "Real-time EMG-based motion intention prediction and assistive interaction research in RIKEN's Man-Machine Collaboration Research Team."
 excerpt_zh: "在 RIKEN 人机协作研究团队开展的实时肌电动作意图预测与辅助型人机交互研究。"
 demo_video: /videos/riken-demo.mp4
+real_time_demo_video: /videos/M-sts-mosaic-browser.mp4
 demo_poster:
 ---
 
@@ -73,7 +74,18 @@ This work connects directly with the team's broader goal of adaptive and unobtru
     <source src="{{ page.demo_video | relative_url }}" type="video/mp4">
   </video>
   <figcaption>
-    <span data-lang-block="en">Demo video of the EMG-based motion intention prediction and assistive interaction pipeline.</span><span data-lang-block="zh">基于肌电的动作意图预测与辅助型人机交互流程 DEMO。</span>
+    <span data-lang-block="en">Prediction demo showing the EMG-based motion intention prediction result.</span><span data-lang-block="zh">预测效果 DEMO：展示基于肌电的动作意图预测结果。</span>
+  </figcaption>
+</figure>
+{% endif %}
+
+{% if page.real_time_demo_video %}
+<figure class="research-demo">
+  <video controls preload="metadata">
+    <source src="{{ page.real_time_demo_video | relative_url }}" type="video/mp4">
+  </video>
+  <figcaption>
+    <span data-lang-block="en">Real-time assistive use demo showing the system operating during an actual sit-to-stand interaction.</span><span data-lang-block="zh">实时使用效果 DEMO：展示系统在实际坐站交互中的在线运行效果。</span>
   </figcaption>
 </figure>
 {% endif %}
