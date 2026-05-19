@@ -71,7 +71,7 @@ Ph.D. student in Intelligence Science and Technology at **Kyoto University** and
 
 - **Best Poster Award**, Department of Intelligence Science and Technology, Graduate School of Informatics, Kyoto University, 2025
 - **Academic Scholarship, Third Prize**, Ocean University of China, 2017 - 2020
-- **ACM-ICPC Shandong Provincial Contest, Silver Medal**, 2014
+- **ACM-ICPC Shandong Provincial Contest**, unofficial team participant, 2014 ([Official ranking](https://acm.sdut.edu.cn/acmss/sd2012/5/2014.html), team: OUC_Nevermore__Ocean University of China)
 - **Project Lead**, Ocean University of China SRDP project, 2016
 
 ## Language Skills
@@ -145,7 +145,7 @@ Ph.D. student in Intelligence Science and Technology at **Kyoto University** and
 
 - **最佳海报奖**，京都大学信息学研究科智能科学与技术系，2025
 - **学业奖学金三等奖**，中国海洋大学，2017 - 2020
-- **ACM-ICPC 山东省赛银牌**，2014
+- **ACM-ICPC 山东省赛**，非正式队参赛经历，2014（[官方排名](https://acm.sdut.edu.cn/acmss/sd2012/5/2014.html)，队名：OUC_Nevermore__中国海洋大学）
 - **项目负责人**，中国海洋大学 SRDP 项目，2016
 
 ## 语言能力

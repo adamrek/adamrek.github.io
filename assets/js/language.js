@@ -96,8 +96,14 @@
   function updateToggle(language) {
     var label = document.getElementById('language-toggle-label');
     var toggle = document.querySelector('#language-toggle a');
+    var options = document.querySelectorAll('.language-toggle__option');
 
-    if (label) {
+    if (options.length) {
+      options.forEach(function (option) {
+        var isActive = option.classList.contains('language-toggle__option--zh') ? language === 'zh' : language !== 'zh';
+        option.classList.toggle('is-active', isActive);
+      });
+    } else if (label) {
       label.textContent = language === 'zh' ? 'EN' : '中文';
     }
 
