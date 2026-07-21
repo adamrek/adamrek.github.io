@@ -71,11 +71,6 @@ redirect_from:
 
 <ol class="home-publications">
   <li>
-    <strong>Practical Motion Classification and Forecast toward Safe Assists of Sit-to-Stand and Stand-to-Sit Motions.</strong>
-    <span>Under review, IEEE/RSJ IROS 2026.</span>
-    <a href="/publication/2026-iros-practical-motion-classification-and-forecast">Details</a>
-  </li>
-  <li>
     <strong>Anticipatory prediction of sit-to-stand and stand-to-sit transitions: a unified approach.</strong>
     <span><em>Frontiers in Bioengineering and Biotechnology</em>, 2026. DOI: 10.3389/fbioe.2026.1792582.</span>
     <a href="/publication/2026-fibb-anticipatory-emg-transition-prediction">Details</a>
@@ -168,11 +163,6 @@ redirect_from:
 ## 代表论文
 
 <ol class="home-publications">
-  <li>
-    <strong>面向安全辅助的坐站与站坐动作实用分类和预测。</strong>
-    <span>投稿至 IEEE/RSJ IROS 2026，审稿中。</span>
-    <a href="/publication/2026-iros-practical-motion-classification-and-forecast">详情</a>
-  </li>
   <li>
     <strong>坐站与站坐转换的提前预测：一种统一方法。</strong>
     <span><em>Frontiers in Bioengineering and Biotechnology</em>，2026。DOI: 10.3389/fbioe.2026.1792582。</span>

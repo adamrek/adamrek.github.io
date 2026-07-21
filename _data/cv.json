@@ -112,13 +112,6 @@
   "references": [],
   "publications": [
     {
-      "name": "Practical Motion Classification and Forecast toward Safe Assists of Sit-to-Stand and Stand-to-Sit Motions",
-      "publisher": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-      "releaseDate": "2026-01-01",
-      "website": "/publication/2026-iros-practical-motion-classification-and-forecast",
-      "summary": "Under review. A safety-aware framework for practical classification and anticipatory forecasting of sit-to-stand and stand-to-sit motions."
-    },
-    {
       "name": "Anticipatory prediction of sit-to-stand and stand-to-sit transitions: a unified approach",
       "publisher": "Frontiers in Bioengineering and Biotechnology",
       "releaseDate": "2026-01-01",

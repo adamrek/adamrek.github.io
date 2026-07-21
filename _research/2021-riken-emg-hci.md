@@ -35,7 +35,6 @@ This work connects directly with the team's broader goal of adaptive and unobtru
 ## Related Outputs
 
 - Integrated motion state prediction for sit-to-stand and stand-to-sit motions toward effective power assist control.
-- Practical motion classification and forecasting toward safe assists of sit-to-stand and stand-to-sit motions.
 - A unified anticipatory prediction framework for sit-to-stand and stand-to-sit transitions.
 
 </div>
@@ -63,7 +62,6 @@ This work connects directly with the team's broader goal of adaptive and unobtru
 ## 相关成果
 
 - 面向有效助力控制的坐站与站坐综合运动状态预测。
-- 面向安全辅助的坐站与站坐动作实用分类和预测。
 - 用于坐站和站坐转换提前预测的统一框架。
 
 </div>
