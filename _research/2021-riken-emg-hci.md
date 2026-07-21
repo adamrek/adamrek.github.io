@@ -18,6 +18,23 @@ My work at RIKEN is conducted in the [Man-Machine Collaboration Research Team](h
 
 Within this context, my research focuses on **EMG-based motion intention prediction for assistive human-machine interaction**. I work on sit-to-stand and stand-to-sit transitions because these motions are common in daily life, safety-critical for older adults and rehabilitation users, and technically challenging: the system must identify the user's intent before the visible motion fully develops.
 
+## Project Snapshot
+
+<div class="research-snapshot">
+  <section>
+    <h3>Sensing</h3>
+    <p>EMG acquisition, preprocessing, and synchronization with human-motion experiments.</p>
+  </section>
+  <section>
+    <h3>Prediction</h3>
+    <p>Online motion-state estimation and anticipatory prediction for sit-to-stand and stand-to-sit transitions.</p>
+  </section>
+  <section>
+    <h3>System Integration</h3>
+    <p>Real-time inference pipelines connected to assistive interaction experiments and hardware prototypes.</p>
+  </section>
+</div>
+
 ## Research Role
 
 - Build EMG acquisition and preprocessing pipelines for lower-limb movement experiments.
@@ -45,6 +62,23 @@ This work connects directly with the team's broader goal of adaptive and unobtru
 
 在这一背景下，我的研究聚焦于**基于肌电信号的动作意图预测与辅助型人机交互**。我重点研究坐站转换和站坐转换，因为这类动作在日常生活中非常常见，对老年人、康复用户和辅助设备使用者具有安全意义，同时也具有较高技术难度：系统需要在明显动作完全发生之前识别使用者的真实意图。
 
+## 项目概览
+
+<div class="research-snapshot">
+  <section>
+    <h3>感知</h3>
+    <p>肌电采集、预处理，以及与人体动作实验数据的同步。</p>
+  </section>
+  <section>
+    <h3>预测</h3>
+    <p>面向坐站和站坐转换的在线运动状态估计与提前预测。</p>
+  </section>
+  <section>
+    <h3>系统集成</h3>
+    <p>将实时推理流程连接到辅助型交互实验和硬件原型中。</p>
+  </section>
+</div>
+
 ## 研究职责
 
 - 构建用于下肢动作实验的肌电采集与预处理流程。
@@ -66,13 +100,18 @@ This work connects directly with the team's broader goal of adaptive and unobtru
 
 </div>
 
+<h2 class="research-demo-heading"><span data-lang-block="en">System Demonstrations</span><span data-lang-block="zh">系统演示</span></h2>
+
+<div class="research-demo-grid">
+
 {% if page.demo_video %}
 <figure class="research-demo">
   <video controls preload="metadata"{% if page.demo_poster %} poster="{{ page.demo_poster | relative_url }}"{% endif %}>
     <source src="{{ page.demo_video | relative_url }}" type="video/mp4">
   </video>
   <figcaption>
-    <span data-lang-block="en">Prediction demo showing the EMG-based motion intention prediction result.</span><span data-lang-block="zh">预测效果 DEMO：展示基于肌电的动作意图预测结果。</span>
+    <strong><span data-lang-block="en">Prediction Result Demo</span><span data-lang-block="zh">预测效果 DEMO</span></strong><br>
+    <span data-lang-block="en">Visualization of the EMG-based motion intention prediction result.</span><span data-lang-block="zh">展示基于肌电的动作意图预测结果。</span>
   </figcaption>
 </figure>
 {% endif %}
@@ -83,7 +122,10 @@ This work connects directly with the team's broader goal of adaptive and unobtru
     <source src="{{ page.real_time_demo_video | relative_url }}" type="video/mp4">
   </video>
   <figcaption>
-    <span data-lang-block="en">Real-time assistive use demo showing the system operating during an actual sit-to-stand interaction.</span><span data-lang-block="zh">实时使用效果 DEMO：展示系统在实际坐站交互中的在线运行效果。</span>
+    <strong><span data-lang-block="en">Real-time Assistive Use Demo</span><span data-lang-block="zh">实时使用效果 DEMO</span></strong><br>
+    <span data-lang-block="en">The system operating during an actual sit-to-stand interaction.</span><span data-lang-block="zh">展示系统在实际坐站交互中的在线运行效果。</span>
   </figcaption>
 </figure>
 {% endif %}
+
+</div>

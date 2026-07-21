@@ -67,7 +67,7 @@ redirect_from:
   </li>
 </ul>
 
-## Selected Publications
+## Recent Publications
 
 <ol class="home-publications">
   <li>
@@ -160,7 +160,7 @@ redirect_from:
   </li>
 </ul>
 
-## 代表论文
+## 近期论文
 
 <ol class="home-publications">
   <li>

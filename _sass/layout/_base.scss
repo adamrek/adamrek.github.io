@@ -260,11 +260,53 @@ figure {
 
 .research-demo {
   display: block;
+  margin: 0 0 1rem;
+  padding: 0.75rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  background: var(--global-bg-color);
 
   video {
     width: 100%;
     border-radius: $border-radius;
   }
+}
+
+.research-snapshot {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+
+  section {
+    padding: 0.8rem 0.9rem;
+    border: 1px solid var(--global-border-color);
+    border-left: 3px solid var(--global-base-color);
+    border-radius: $border-radius;
+    background: var(--global-bg-color);
+  }
+
+  h3 {
+    margin: 0 0 0.35rem;
+    font-size: $type-size-5;
+  }
+
+  p {
+    margin: 0;
+    font-size: $type-size-6;
+    line-height: 1.5;
+  }
+}
+
+.research-demo-heading {
+  margin-top: 2rem;
+}
+
+.research-demo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
 }
 
 /* Figure captions */
