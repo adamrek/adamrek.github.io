@@ -15,8 +15,8 @@ redirect_from:
 Ph.D. student in Intelligence Science and Technology at **Kyoto University** and research trainee in the **Man-Machine Collaboration Research Team at RIKEN**. My research focuses on EMG-based physiological signal modeling, motion intention prediction, and real-time intelligent interaction for assistive systems, including chair-based and wearable support devices. I am interested in research science, research engineering, and applied machine learning opportunities related to physiological sensing, multimodal perception, and human-centered intelligent systems.
 
 <div class="cv-download-links">
-  <a class="btn btn--primary" href="/cv_pdf/Kai_Ren_CV_en.pdf">Download CV (English)</a>
-  <a class="btn" href="/cv_pdf/Kai_Ren_CV_cn.pdf">Download CV (Chinese)</a>
+  <a class="btn btn--primary" href="/cv_pdf/Kai_Ren_CV_en.pdf?v=20260727">Download CV (English)</a>
+  <a class="btn" href="/cv_pdf/Kai_Ren_CV_cn.pdf?v=20260727">Download CV (Chinese)</a>
 </div>
 
 ## Education
@@ -89,8 +89,8 @@ Ph.D. student in Intelligence Science and Technology at **Kyoto University** and
 京都大学**智能科学与技术方向博士研究生**，日本理化学研究所（RIKEN）**人机协作研究团队**研究实习生。研究方向包括基于肌电的生理信号建模、动作意图预测，以及面向辅助系统的实时智能交互，应用场景包括座椅式和可穿戴辅助设备。本人关注与生理感知、多模态感知、以人为中心的智能系统相关的科研、研究工程和应用机器学习机会。
 
 <div class="cv-download-links">
-  <a class="btn btn--primary" href="/cv_pdf/Kai_Ren_CV_cn.pdf">下载中文简历</a>
-  <a class="btn" href="/cv_pdf/Kai_Ren_CV_en.pdf">下载英文简历</a>
+  <a class="btn btn--primary" href="/cv_pdf/Kai_Ren_CV_cn.pdf?v=20260727">下载中文简历</a>
+  <a class="btn" href="/cv_pdf/Kai_Ren_CV_en.pdf?v=20260727">下载英文简历</a>
 </div>
 
 ## 教育经历

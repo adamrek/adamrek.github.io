@@ -1,0 +1,96 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.62in]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+
+\setmainfont{Arial}
+\setCJKmainfont{Songti SC}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\pagenumbering{gobble}
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{-0.35em}\rule{\linewidth}{0.4pt}]
+\titlespacing*{\section}{0pt}{0.7em}{0.4em}
+\setlist[itemize]{leftmargin=1.35em,itemsep=0.18em,topsep=0.15em}
+\setlist[enumerate]{leftmargin=1.55em,itemsep=0.3em,topsep=0.15em}
+
+\newcommand{\entry}[2]{\textbf{#1}\hfill #2}
+\newcommand{\link}[2]{\href{#1}{#2}}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{任凯（Kai Ren）}}\\
+  京都大学 \textbar{} 博士研究生 \textbar{} 智能科学与技术\\
+  肌电感知 \textbar{} 机器人 \textbar{} 人机交互\\
+  \href{mailto:ren.kai.34k@st.kyoto-u.ac.jp}{ren.kai.34k@st.kyoto-u.ac.jp}\\
+  \href{https://adamrek.github.io}{https://adamrek.github.io}
+\end{center}
+
+\section*{个人简介}
+京都大学智能科学与技术博士研究生，研究聚焦于肌电（EMG）感知、深度学习与人机交互的交叉方向。当前围绕生理信号建模与动作意图预测，面向座椅式与可穿戴辅助设备开展智能交互系统研究，相关成果发表于机器人与生物工程领域。具备从数据采集与分析、神经网络建模到实时通信与系统集成的全链路研究与工程能力，研究面向可穿戴辅助设备与具身智能应用。
+
+\section*{科研经历}
+\entry{日本理化学研究所（RIKEN）人机协作研究团队}{2021年12月 -- 至今}\\
+\textit{研究实习生} \hfill \link{https://grp.riken.jp/labs/man_machine_collab/}{RIKEN-GRP Homepage}
+\begin{itemize}
+  \item 开展基于肌电（EMG）感知的坐下/起立动作分析与预测研究，服务于辅助系统应用。
+  \item 设计面向生理信号的实时处理流程与神经网络模型，用于动作意图预测。
+  \item 构建并集成用于电动辅助设备闭环控制的实验系统（含座椅式辅助原型）。
+  \item 参与肌电硬件原型开发，包括电极制作、焊接与采集系统搭建。
+  \item 完成数据采集、模型训练、在线评估与系统级验证等全流程研究工作。
+\end{itemize}
+
+\section*{教育背景}
+\begin{itemize}
+  \item 京都大学（日本），智能科学与技术博士 \hfill 2021年4月 -- 至今
+  \item 中国海洋大学（中国），计算机应用工程硕士 \hfill 2017年 -- 2020年
+  \item 中国海洋大学（中国），计算机科学与技术学士 \hfill 2013年 -- 2017年
+\end{itemize}
+
+\section*{活动与项目}
+\begin{itemize}
+  \item 2014年 ACM-ICPC 山东省省赛参赛经历。
+  \item 2016年 中国海洋大学 SRDP 项目负责人。
+  \item 2025年 京都大学情报学研究科 IST 最佳海报。
+\end{itemize}
+
+\section*{奖学金}
+\begin{itemize}
+  \item 学业奖学金三等奖（2017--2020，连续获奖）。
+\end{itemize}
+
+\section*{论文成果}
+博士期间主要研究肌电信号感知与动作意图识别，聚焦基于腿部肌肉信号的实时预测与设备控制。相关成果可应用于穿戴式智能设备、康复设备、运动评估设备等多种人机交互场景。
+
+\begin{enumerate}
+  \item Anticipatory prediction of sit-to-stand and stand-to-sit transitions: a unified approach. \textit{Frontiers in Bioengineering and Biotechnology}, 2026. DOI: \href{https://doi.org/10.3389/fbioe.2026.1792582}{10.3389/fbioe.2026.1792582}.\\
+  面向老年人与年轻人在起立与坐下动作上的差异，研究不同人群的肌肉协同特征及动作意图预测问题。基于两类人群在不同动作策略下的实验数据，分析其特征差异并提出统一建模框架，结合多特征融合 LSTM 构建快速时序分类模型，并完成实时系统与座椅式辅助设备的集成，实现准确高效的动作意图预测与设备控制。
+
+  \item Integrated Motion State Prediction for Sit-to-Stand and Stand-to-Sit Motions Toward Effective Power Assist Control. \textit{IEEE ICRA}, 2025, pp. 947--952.\\
+  面向起立与坐下两类动作的统一建模，研究两者在肌肉信号特征上的关联性。基于多名参与者的起立/坐下数据，系统分析两类动作的共性与差异，并提出统一的动作意图实时预测框架，基于多特征融合 LSTM 构建高精度实时动作分类预测系统。
+
+  \item Q-DFN: Q-learning Decisive Fusion Network for Object Detection. \textit{Proceedings of CSAI 2019}, pp. 88--92.\\
+  硕士期间主要研究目标检测任务，提出多特征融合网络以提升目标检测的准确性。
+\end{enumerate}
+
+\section*{技术能力}
+\begin{itemize}
+  \item \textbf{编程：} Python，MATLAB，C++
+  \item \textbf{机器学习：} PyTorch；面向生理信号与时序数据的深度学习建模
+  \item \textbf{信号处理：} EMG 采集、预处理、特征提取、实时信号处理
+  \item \textbf{运动捕捉：} OptiTrack motion capture system；实验标定、数据采集与多传感器同步
+  \item \textbf{系统与控制：} 实时推理流程、闭环实验系统、辅助设备集成
+  \item \textbf{硬件原型：} 电极制作、焊接、电路装配、肌电传感器搭建
+  \item \textbf{工具链：} Linux，Git
+\end{itemize}
+
+\section*{研究兴趣与语言}
+\textbf{研究兴趣：} 面向动作意图预测的生理信号建模，多模态感知与实时推理，以及以人为中心的自适应交互系统。\\
+\textbf{语言能力：} 中文（母语）、英语（托福）、日语（JLPT N2）。
+
+\end{document}

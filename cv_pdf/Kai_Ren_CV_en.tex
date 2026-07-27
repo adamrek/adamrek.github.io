@@ -1,0 +1,82 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.42in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\renewcommand{\baselinestretch}{0.94}
+\pagenumbering{gobble}
+
+\titleformat{\section}{\normalsize\bfseries}{}{0pt}{}[\vspace{-0.42em}\rule{\linewidth}{0.35pt}]
+\titlespacing*{\section}{0pt}{0.42em}{0.22em}
+\setlist[itemize]{leftmargin=1.05em,itemsep=0.04em,topsep=0.03em}
+\setlist[enumerate]{leftmargin=1.2em,itemsep=0.06em,topsep=0.03em}
+
+\newcommand{\entry}[2]{\textbf{#1}\hfill #2}
+\newcommand{\link}[2]{\href{#1}{#2}}
+
+\begin{document}
+\fontsize{9.4}{10.2}\selectfont
+
+\begin{center}
+  {\Large \textbf{Kai Ren}}\\[-0.15em]
+  Kyoto University \textbar{} Ph.D. Candidate \textbar{} Intelligent Science and Technology\\
+  EMG Sensing \textbar{} Robotics \textbar{} Human-Computer Interaction\\
+  \href{mailto:ren.kai.34k@st.kyoto-u.ac.jp}{ren.kai.34k@st.kyoto-u.ac.jp}\\
+  \href{https://adamrek.github.io}{adamrek.github.io}
+\end{center}
+\vspace{-0.4em}
+
+\section*{Profile}
+Ph.D. candidate in Intelligent Science and Technology at Kyoto University, focusing on electromyography (EMG) sensing, deep learning, robotics, and human-computer interaction. Current work targets physiological signal modeling and motion intent prediction for seat-based and wearable assistive systems, with end-to-end experience from data acquisition to real-time system integration.
+
+\section*{Research Experience}
+\entry{RIKEN, Man-Machine Collaboration Research Team, Japan}{Dec 2021 -- Present}\\
+\textit{Research Trainee} \hfill \link{https://grp.riken.jp/labs/man_machine_collab/}{RIKEN-GRP Homepage}
+\begin{itemize}
+  \item Conduct EMG-based analysis and prediction for sit-to-stand and stand-to-sit transitions in assistive scenarios.
+  \item Design real-time physiological signal processing pipelines and neural network models for motion intent prediction.
+  \item Build experimental closed-loop systems for powered assistive devices, including seat-based prototypes.
+  \item Execute the full research workflow: EMG hardware setup, data collection, model training, online evaluation, and validation.
+\end{itemize}
+
+\section*{Education}
+\begin{itemize}
+  \item Kyoto University, Japan, Ph.D. in Intelligent Science and Technology \hfill Apr 2021 -- Present
+  \item Ocean University of China, China, M.Eng. in Computer Application Engineering \hfill 2017 -- 2020
+  \item Ocean University of China, China, B.Eng. in Computer Science and Technology \hfill 2013 -- 2017
+\end{itemize}
+
+\section*{Activities and Projects}
+\begin{itemize}
+  \item 2014 ACM-ICPC Shandong Provincial Contest participant.
+  \item 2016 Project Lead, SRDP Program, Ocean University of China, iOS app development.
+  \item 2025 IST Best Poster Award, Graduate School of Informatics, Kyoto University.
+  \item Third-Class Academic Scholarship, 2017--2020, awarded consecutively each year.
+\end{itemize}
+
+\section*{Publications}
+\begin{enumerate}
+  \item Anticipatory prediction of sit-to-stand and stand-to-sit transitions: a unified approach. \textit{Frontiers in Bioengineering and Biotechnology}, 2026. DOI: \href{https://doi.org/10.3389/fbioe.2026.1792582}{10.3389/fbioe.2026.1792582}.
+  \item Integrated Motion State Prediction for Sit-to-Stand and Stand-to-Sit Motions Toward Effective Power Assist Control. \textit{IEEE ICRA}, 2025, pp. 947--952.
+  \item Q-DFN: Q-learning Decisive Fusion Network for Object Detection. \textit{Proceedings of CSAI 2019}, pp. 88--92.
+\end{enumerate}
+
+\section*{Technical Skills}
+\begin{itemize}
+  \item \textbf{Programming:} Python, MATLAB, C++
+  \item \textbf{Machine Learning:} PyTorch, deep learning for biosignals and time-series modeling
+  \item \textbf{Signal Processing:} EMG acquisition, preprocessing, feature extraction, real-time processing
+  \item \textbf{Systems and Hardware:} real-time inference, closed-loop systems, assistive-device integration, EMG sensor setup
+  \item \textbf{Tools:} Linux, Git, experimental system integration
+\end{itemize}
+
+\section*{Research Interests and Languages}
+\textbf{Research Interests:} physiological signal modeling for motion intent prediction, multimodal perception, real-time reasoning, and human-centered AI.\\
+\textbf{Languages:} Chinese, native; English, TOEFL; Japanese, JLPT N2.
+
+\end{document}

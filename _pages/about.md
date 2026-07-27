@@ -17,7 +17,7 @@ redirect_from:
   </p>
   <div class="home-actions" aria-label="Primary links">
     <a class="btn btn--primary" href="/publications/">Publications</a>
-    <a class="btn" href="/cv_pdf/Kai_Ren_CV_en.pdf">CV PDF</a>
+    <a class="btn" href="/cv_pdf/Kai_Ren_CV_en.pdf?v=20260727">CV PDF</a>
     <a class="btn" href="mailto:ren.kai.34k@st.kyoto-u.ac.jp">Email</a>
   </div>
   <p class="home-secondary-links">
@@ -25,7 +25,7 @@ redirect_from:
     <span aria-hidden="true">/</span>
     <a href="/cv/">Full CV</a>
     <span aria-hidden="true">/</span>
-    <a href="/cv_pdf/Kai_Ren_CV_cn.pdf">Chinese CV PDF</a>
+    <a href="/cv_pdf/Kai_Ren_CV_cn.pdf?v=20260727">Chinese CV PDF</a>
   </p>
 </div>
 
@@ -110,7 +110,7 @@ redirect_from:
   </p>
   <div class="home-actions" aria-label="主要链接">
     <a class="btn btn--primary" href="/publications/">论文</a>
-    <a class="btn" href="/cv_pdf/Kai_Ren_CV_cn.pdf">中文简历 PDF</a>
+    <a class="btn" href="/cv_pdf/Kai_Ren_CV_cn.pdf?v=20260727">中文简历 PDF</a>
     <a class="btn" href="mailto:ren.kai.34k@st.kyoto-u.ac.jp">联系我</a>
   </div>
   <p class="home-secondary-links">
@@ -118,7 +118,7 @@ redirect_from:
     <span aria-hidden="true">/</span>
     <a href="/cv/">完整简历</a>
     <span aria-hidden="true">/</span>
-    <a href="/cv_pdf/Kai_Ren_CV_en.pdf">英文简历 PDF</a>
+    <a href="/cv_pdf/Kai_Ren_CV_en.pdf?v=20260727">英文简历 PDF</a>
   </p>
 </div>
 
