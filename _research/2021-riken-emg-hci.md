@@ -7,8 +7,8 @@ venue: "Man-Machine Collaboration Research Team, RIKEN"
 venue_zh: "RIKEN 人机协作研究团队"
 excerpt: "Real-time EMG-based motion intention prediction and assistive interaction research in RIKEN's Man-Machine Collaboration Research Team."
 excerpt_zh: "在 RIKEN 人机协作研究团队开展的实时肌电动作意图预测与辅助型人机交互研究。"
-demo_video: /videos/riken-demo.mp4
-real_time_demo_video: /videos/M-sts-mosaic-browser.mp4
+demo_video: /videos/riken-demo.mp4?v=20260811
+real_time_demo_video: /videos/M-sts-mosaic-browser.mp4?v=20260811
 demo_poster:
 ---
 
@@ -107,7 +107,7 @@ This work connects directly with the team's broader goal of adaptive and unobtru
 {% if page.demo_video %}
 <figure class="research-demo">
   <video controls preload="metadata"{% if page.demo_poster %} poster="{{ page.demo_poster | relative_url }}"{% endif %}>
-    <source src="{{ page.demo_video | relative_url }}" type="video/mp4">
+    <source src="{{ page.demo_video }}" type="video/mp4">
   </video>
   <figcaption>
     <strong><span data-lang-block="en">Prediction Result Demo</span><span data-lang-block="zh">预测效果 DEMO</span></strong><br>
@@ -119,7 +119,7 @@ This work connects directly with the team's broader goal of adaptive and unobtru
 {% if page.real_time_demo_video %}
 <figure class="research-demo">
   <video controls preload="metadata">
-    <source src="{{ page.real_time_demo_video | relative_url }}" type="video/mp4">
+    <source src="{{ page.real_time_demo_video }}" type="video/mp4">
   </video>
   <figcaption>
     <strong><span data-lang-block="en">Real-time Assistive Use Demo</span><span data-lang-block="zh">实时使用效果 DEMO</span></strong><br>
