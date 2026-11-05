@@ -15,8 +15,8 @@ redirect_from:
 Ph.D. student in Intelligence Science and Technology at **Kyoto University** and research trainee in the **Man-Machine Collaboration Research Team at RIKEN**. My research focuses on EMG-based physiological signal modeling, motion intention prediction, and real-time intelligent interaction for assistive systems, including chair-based and wearable support devices. I am interested in research science, research engineering, and applied machine learning opportunities related to physiological sensing, multimodal perception, and human-centered intelligent systems.
 
 <div class="cv-download-links">
-  <a class="btn btn--primary" href="/cv_pdf/Kai_Ren_CV_en.pdf?v=20260727">Download CV (English)</a>
-  <a class="btn" href="/cv_pdf/Kai_Ren_CV_cn.pdf?v=20260727">Download CV (Chinese)</a>
+  <a class="btn btn--primary" href="/cv_pdf/Kai_Ren_CV_en.pdf?v=20261006">Download CV (English)</a>
+  <a class="btn" href="/cv_pdf/Kai_Ren_CV_cn.pdf?v=20261006">Download CV (Chinese)</a>
 </div>
 
 ## Education
@@ -71,7 +71,7 @@ Ph.D. student in Intelligence Science and Technology at **Kyoto University** and
 
 - **Best Poster Award**, Department of Intelligence Science and Technology, Graduate School of Informatics, Kyoto University, 2025
 - **Academic Scholarship, Third Prize**, Ocean University of China, 2017 - 2020
-- **ACM-ICPC Shandong Provincial Contest**, unofficial team participant, 2014 ([Official ranking](https://acm.sdut.edu.cn/acmss/sd2012/5/2014.html), team: OUC_Nevermore__Ocean University of China)
+- **ACM-ICPC Shandong Provincial Contest**, participant, 2014
 - **Project Lead**, Ocean University of China SRDP project, 2016
 
 ## Language Skills
@@ -89,8 +89,8 @@ Ph.D. student in Intelligence Science and Technology at **Kyoto University** and
 京都大学**智能科学与技术方向博士研究生**，日本理化学研究所（RIKEN）**人机协作研究团队**研究实习生。研究方向包括基于肌电的生理信号建模、动作意图预测，以及面向辅助系统的实时智能交互，应用场景包括座椅式和可穿戴辅助设备。本人关注与生理感知、多模态感知、以人为中心的智能系统相关的科研、研究工程和应用机器学习机会。
 
 <div class="cv-download-links">
-  <a class="btn btn--primary" href="/cv_pdf/Kai_Ren_CV_cn.pdf?v=20260727">下载中文简历</a>
-  <a class="btn" href="/cv_pdf/Kai_Ren_CV_en.pdf?v=20260727">下载英文简历</a>
+  <a class="btn btn--primary" href="/cv_pdf/Kai_Ren_CV_cn.pdf?v=20261006">下载中文简历</a>
+  <a class="btn" href="/cv_pdf/Kai_Ren_CV_en.pdf?v=20261006">下载英文简历</a>
 </div>
 
 ## 教育经历
@@ -98,10 +98,10 @@ Ph.D. student in Intelligence Science and Technology at **Kyoto University** and
 - **智能科学与技术 博士**，京都大学，日本<br>
   2021 年 4 月 - 至今
 
-- **计算机应用技术 硕士**，中国海洋大学，中国<br>
+- **计算机应用技术 硕士**，中国海洋大学（985/211），中国<br>
   2017 - 2020
 
-- **计算机科学与技术 工学学士**，中国海洋大学，中国<br>
+- **计算机科学与技术 工学学士**，中国海洋大学（985/211），中国<br>
   2013 - 2017
 
 ## 研究兴趣
@@ -145,7 +145,7 @@ Ph.D. student in Intelligence Science and Technology at **Kyoto University** and
 
 - **最佳海报奖**，京都大学信息学研究科智能科学与技术系，2025
 - **学业奖学金三等奖**，中国海洋大学，2017 - 2020
-- **ACM-ICPC 山东省赛**，非正式队参赛经历，2014（[官方排名](https://acm.sdut.edu.cn/acmss/sd2012/5/2014.html)，队名：OUC_Nevermore__中国海洋大学）
+- **ACM-ICPC 山东省赛**，参赛经历，2014
 - **项目负责人**，中国海洋大学 SRDP 项目，2016
 
 ## 语言能力

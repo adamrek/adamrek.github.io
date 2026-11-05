@@ -51,6 +51,7 @@ This work connects directly with the team's broader goal of adaptive and unobtru
 
 ## Related Outputs
 
+- [Practical Motion Classification and Forecast toward Safe Assists of Sit-to-Stand and Stand-to-Sit Motions](/publication/2027-icra-practical-motion-classification-and-forecast). Submitted to IEEE ICRA 2027; under review.
 - Integrated motion state prediction for sit-to-stand and stand-to-sit motions toward effective power assist control.
 - A unified anticipatory prediction framework for sit-to-stand and stand-to-sit transitions.
 
@@ -95,6 +96,7 @@ This work connects directly with the team's broader goal of adaptive and unobtru
 
 ## 相关成果
 
+- [面向安全辅助的坐站与站坐动作实用分类和预测](/publication/2027-icra-practical-motion-classification-and-forecast)。已投稿至 IEEE ICRA 2027，在审。
 - 面向有效助力控制的坐站与站坐综合运动状态预测。
 - 用于坐站和站坐转换提前预测的统一框架。
 

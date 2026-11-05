@@ -17,7 +17,7 @@ redirect_from:
   </p>
   <div class="home-actions" aria-label="Primary links">
     <a class="btn btn--primary" href="/publications/">Publications</a>
-    <a class="btn" href="/cv_pdf/Kai_Ren_CV_en.pdf?v=20260727">CV PDF</a>
+    <a class="btn" href="/cv_pdf/Kai_Ren_CV_en.pdf?v=20261006">CV PDF</a>
     <a class="btn" href="mailto:ren.kai.34k@st.kyoto-u.ac.jp">Email</a>
   </div>
   <p class="home-secondary-links">
@@ -25,7 +25,7 @@ redirect_from:
     <span aria-hidden="true">/</span>
     <a href="/cv/">Full CV</a>
     <span aria-hidden="true">/</span>
-    <a href="/cv_pdf/Kai_Ren_CV_cn.pdf?v=20260727">Chinese CV PDF</a>
+    <a href="/cv_pdf/Kai_Ren_CV_cn.pdf?v=20261006">Chinese CV PDF</a>
   </p>
 </div>
 
@@ -71,6 +71,11 @@ redirect_from:
 
 <ol class="home-publications">
   <li>
+    <strong>Practical Motion Classification and Forecast toward Safe Assists of Sit-to-Stand and Stand-to-Sit Motions.</strong>
+    <span>Submitted to <em>IEEE ICRA 2027</em>; under review.</span>
+    <a href="/publication/2027-icra-practical-motion-classification-and-forecast">Details</a>
+  </li>
+  <li>
     <strong>Anticipatory prediction of sit-to-stand and stand-to-sit transitions: a unified approach.</strong>
     <span><em>Frontiers in Bioengineering and Biotechnology</em>, 2026. DOI: 10.3389/fbioe.2026.1792582.</span>
     <a href="/publication/2026-fibb-anticipatory-emg-transition-prediction">Details</a>
@@ -110,7 +115,7 @@ redirect_from:
   </p>
   <div class="home-actions" aria-label="主要链接">
     <a class="btn btn--primary" href="/publications/">论文</a>
-    <a class="btn" href="/cv_pdf/Kai_Ren_CV_cn.pdf?v=20260727">中文简历 PDF</a>
+    <a class="btn" href="/cv_pdf/Kai_Ren_CV_cn.pdf?v=20261006">中文简历 PDF</a>
     <a class="btn" href="mailto:ren.kai.34k@st.kyoto-u.ac.jp">联系我</a>
   </div>
   <p class="home-secondary-links">
@@ -118,7 +123,7 @@ redirect_from:
     <span aria-hidden="true">/</span>
     <a href="/cv/">完整简历</a>
     <span aria-hidden="true">/</span>
-    <a href="/cv_pdf/Kai_Ren_CV_en.pdf?v=20260727">英文简历 PDF</a>
+    <a href="/cv_pdf/Kai_Ren_CV_en.pdf?v=20261006">英文简历 PDF</a>
   </p>
 </div>
 
@@ -163,6 +168,11 @@ redirect_from:
 ## 近期论文
 
 <ol class="home-publications">
+  <li>
+    <strong>面向安全辅助的坐站与站坐动作实用分类和预测。</strong>
+    <span>已投稿至 <em>IEEE ICRA 2027</em>，在审。</span>
+    <a href="/publication/2027-icra-practical-motion-classification-and-forecast">详情</a>
+  </li>
   <li>
     <strong>坐站与站坐转换的提前预测：一种统一方法。</strong>
     <span><em>Frontiers in Bioengineering and Biotechnology</em>，2026。DOI: 10.3389/fbioe.2026.1792582。</span>
