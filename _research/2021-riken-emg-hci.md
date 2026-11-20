@@ -8,7 +8,7 @@ venue_zh: "RIKEN 人机协作研究团队"
 excerpt: "Real-time EMG-based motion intention prediction and assistive interaction research in RIKEN's Man-Machine Collaboration Research Team."
 excerpt_zh: "在 RIKEN 人机协作研究团队开展的实时肌电动作意图预测与辅助型人机交互研究。"
 demo_video: /videos/riken-demo.mp4?v=20260811
-real_time_demo_video: /videos/M-sts-mosaic-browser.mp4?v=20260811
+real_time_demo_video: /videos/M-sts-mosaic-browser.mp4?v=20261120
 demo_poster:
 ---
 
@@ -124,8 +124,8 @@ This work connects directly with the team's broader goal of adaptive and unobtru
     <source src="{{ page.real_time_demo_video }}" type="video/mp4">
   </video>
   <figcaption>
-    <strong><span data-lang-block="en">Real-time Assistive Use Demo</span><span data-lang-block="zh">实时使用效果 DEMO</span></strong><br>
-    <span data-lang-block="en">The system operating during an actual sit-to-stand interaction.</span><span data-lang-block="zh">展示系统在实际坐站交互中的在线运行效果。</span>
+    <strong><span data-lang-block="en">Sit-to-Stand Motion Demo</span><span data-lang-block="zh">坐站动作 DEMO</span></strong><br>
+    <span data-lang-block="en">Four sit-to-stand strategies: momentum, knee support, table support, and handrail support.</span><span data-lang-block="zh">展示四种起立方式：借助惯性、撑膝、扶桌和扶扶手。</span>
   </figcaption>
 </figure>
 {% endif %}
